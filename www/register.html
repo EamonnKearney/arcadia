@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Club Registration</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <ul class="topnav">
+        <li><a class="active" href="index.html" id="Name">Café Arcadia</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="coffee.html">Drinks</a></li>
+        <li><a href="bakery.html">Bakery</a></li>
+        <li><a href="club.html">Club</a></li>
+        <li><a class="right" href="contact.html">Contact</a></li>
+      </ul>
+      <div class="Banner">
+        <img class="bannerImage" src="images/coffee.jpg" alt="Coffee" width="100%">
+        <div class="centered">Welcome Aboard</div>
+      </div>
+    </header>
+    <article>
+      <div class="wide">
+        <h1>Tell us about yourself</h1>
+        <form action="/action_page.php" method="post">
+          Email Address:<br>
+          <input name="email" id="email" type="text">
+          <br><br>
+          Forename:<br>
+          <input name="forename" id="forename" type="text">
+          <br><br>
+          Surname:<br>
+          <input name="surname" id="surname" type="text">
+          <br><br>
+          Address line 1:<br>
+          <input name="address1" id="address1" type="text">
+          <br><br>
+          Address line 2:<br>
+          <input name="address2" id="address2" type="text">
+          <br><br>
+          City:<br>
+          <input name="city" id="city" type="text">
+          <br><br>
+          Postcode:<br>
+          <input name="postcode" id="postcode" type="text">
+          <br><br>
+          Date of Birth:<br>
+          <input name="dob" id="dob" type="date">
+          <br><br>
+          Password:<br>
+          <input name="passwordReg" id="passwordReg" type="password">
+          <br><br>
+          Re-Enter Password:<br>
+          <input name="passwordReg2" type="password">
+          <br><br>
+          <input type="submit">
+        </form>
+    </div>
+  </article>
+    <footer class="footer">
+      <p>Café Arcadia<br>Clerkenwell <br>London EC1</p>
+    </footer>
+
+  </body>
+</html>

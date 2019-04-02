@@ -1,0 +1,148 @@
+
+* {
+  margin: 0px;
+  font-family: sans-serif;
+  color:white;
+  background-color: gray;
+  box-sizing: border-box;
+  text-decoration: none;
+  display:run-in;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+ul.topnav {
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black !important;
+}
+
+ul.topnav li {
+  float: left;
+  background-color: black !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+ul.topnav li a {
+  display: block;
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black !important;
+}
+ul.topnav li a:hover {
+  color: DimGray
+}
+
+ul.topnav li.right {float: right;}
+
+
+body {
+  margin: 0px;
+}
+
+#Name {
+  font-size: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.Banner {
+  position: relative;
+  text-align: center;
+
+}
+
+.bannerImage {
+  width: 100%;
+  height: 500px;
+  filter: blur(5px);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+
+  float: left;
+  width: 31.5%;
+  height: 300px;
+  border:1px solid white;
+  margin: 10px;
+  padding:10px;
+  overflow:hidden;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnHeader {
+  text-align: center;
+}
+
+.button {
+  margin: auto;
+  width: 170px;;
+  text-align: center;
+  border:1px solid white;
+}
+
+.column img{
+  width: 100%;
+  height: 100%;
+}
+
+.wide {
+  border:1px solid white;
+  margin: 10px;
+  padding:10px;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+.footer {
+  margin: none;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer p {
+  padding: 20px;
+  background-color: DimGray;
+}
